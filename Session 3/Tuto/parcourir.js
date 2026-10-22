@@ -23,8 +23,6 @@ for (i= sequence.length-1 ; i>=0 ; i--){
     console.log("Décollage !");
 
 // excercice
-
-
 let notes = [];
 let taille = Number(prompt("Entrer le nombre des notes :"));
 let somme = 0;
