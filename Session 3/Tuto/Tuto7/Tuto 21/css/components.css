@@ -7,3 +7,7 @@
 .carte-contenu {
     padding: 30px;
 }
+.conteneur-articles {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
