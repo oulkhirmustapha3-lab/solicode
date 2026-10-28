@@ -21,10 +21,12 @@
 }
 .barre-navigation{
     display: flex;
+    justify-content: space-between;
 }
 .conteneur-pied-de-page{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .pied-de-page {
