@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* style header */
+
+.header{
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.logo span{
+    color: blue;
+}
+.menu-nav{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+.menu-nav a{
+    text-decoration: none;
+    color: rgb(90, 85, 85);
+}
+.menu:hover{
+    color: black;
+}
+.btn{
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding:8px 25px ;
+}
+.btn:hover{
+    background-color:rgb(18, 18, 245);
+    color: white;
+}
+.main-header{
+    background-image: url(/images/background.png);
+    background-color: #eef2ff;
+    padding: 70px 50px ;
+    margin: 5px 0px 18px 0px;
+    height: 500px;
+    
+}
+.title{
+    padding-bottom: 25px;
+    
+    font-size: 50px;
+}
+.title span{
+    color: #FAF5F1;
+}
+.search{
+    display: flex;
+    margin-top: 40px;
+    padding: 10px;
+    border: 2px solid blue;
+    border-width: 50%;
+    border-radius: 14px;
+    background-color: white;
+    max-width: 50%;
+}
+.search input{
+    flex: 1;
+    padding: 14px 18px;
+    border: none;
+    outline: none;  
+      font-size: 20px;
+}
+.search button{
+    background-color: rgb(18, 18, 245);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 120px;
+    font-size: 20px;
+}
+.search button:hover{
+    background-color: rgb(5, 5, 110);
+}
+.populaire{
+    margin-top: 30px;
+}
+.populaire span{
+    font-weight: bold;
+    color: gray;
+}
+.populaire a{
+    text-decoration: none;
+    color: rgb(71, 68, 68);
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 8px 25px;
+    margin: 8px;
+}
+.populaire a:hover{
+    background-color:rgb(18, 18, 245);
+    color: white;
+}
+.article-title{
+    border-left: 5px solid blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.article-title a{
+    text-decoration: none;
+    font-weight: 800;
+    margin-top: 9px;
+    color: blue;
+}
+.article-title a:hover{
+    border-bottom: 1px solid blue;
+}
+.cards{
+    display:flex ;
+    text-align: center;
+    gap: 45px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    flex: 1;
+    background-color:#FAF5F1 ;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 30%)
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.header-card{
+    display: flex;
+}
+.logo-card{
+    border-radius: 8%;
+    background-color: rgb(241, 106, 106);
+    padding: 10px 15px 10px 15px;
+    font-size: 30px;   
+}
+.header-card p{
+    color: gray;
+}
+.desc-card{
+    text-align: center;
+    padding: 20px;
+
+}
+.tags{
+    display: flex;
+    gap: 10px;
+}
+.tags span{
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+.tags span:hover{
+    background-color: blue;
+    color: white;
+}
+.card a{
+    text-decoration: none;
+    color: blue;
+    border:1px solid blue;
+    border-radius: 50px;
+    padding: 8px;
+}
+.card a:hover{
+    background-color: blue;
+    color: white;
+}
+.footer{
+    margin-top: 80px;
+    background-color:#FAF5F1 ;
+    padding: 100px 40px;
+    box-sizing: border-box;
+}
+.footer-container{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+}
+.foot{
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    border-right: 1px solid rgb(174, 174, 174);
+}
+.foot:last-child {
+  border-right: none;
+}
+.foot h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family:arial;
+}
+.foot-logo p{
+    margin-top: 20px;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
