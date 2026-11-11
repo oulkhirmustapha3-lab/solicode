@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Blog Personnel - Accueil</title>
     <!-- CSS Organisé pour N1 -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/pages.css">
 </head>
+
 <body>
 
     <!-- =====================================================
@@ -77,24 +78,23 @@
 
             <!-- CARTES D'ARTICLES -->
             <div class="grille-articles">
-                <div class="grille-articles">
-    <?php foreach ($articles as $article): ?>
-        <div class="carte-article">
-            <a href="article.php?id=<?= $article['id'] ?>" class="carte-image">
-                <img src="images/<?= htmlspecialchars($article['image']) ?>" alt="Illustration">
-            </a>
-            <span class="etiquette-categorie"><?= htmlspecialchars($article['categorie_libelle']) ?></span>
-            <div class="carte-contenu">
-                <h3><a href="article.php?id=<?= $article['id'] ?>"><?= htmlspecialchars($article['titre']) ?></a></h3>
-                <p><?= htmlspecialchars(substr($article['contenu'], 0, 100)) ?>...</p>
-                <div class="carte-meta">
-                    <span><?= date('d M Y', strtotime($article['date_creation'])) ?></span>
-                    <span>5 min</span>
+                <?php foreach ($articles as $article): ?>
+                <div class="carte-article">
+                    <a href="public-article.html" class="carte-image">
+                        <img src=images/<?= $article["image"] ?> alt="Code source affiché sur un écran">
+                    </a>
+                    <span class="etiquette-categorie bleu"><?= $article["categorie_libelle"] ?></span>
+                    <div class="carte-contenu">
+                        <h3><a href="public-article.html"><?= $article["titre"] ?></a></h3>
+                        <p> <?= $article["contenu"] ?></p>
+                        <div class="carte-meta">
+                            <span><?= $article["date_creation"] ?></span>
+                            <span>5 min</span>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
                 </div>
-            </div>
-        </div>
-    <?php endforeach; ?>
-</div>
+
             </div>
         </div>
     </section>
@@ -126,4 +126,5 @@
         </div>
     </footer>
 </body>
+
 </html>
