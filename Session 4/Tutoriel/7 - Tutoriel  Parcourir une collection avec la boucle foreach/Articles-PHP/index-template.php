@@ -7,6 +7,7 @@
     <title>Mon Blog Personnel - Accueil</title>
     <!-- CSS Organisé pour N1 -->
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
 <body>
@@ -86,7 +87,7 @@
                     <span class="etiquette-categorie bleu"><?= $article["categorie_libelle"] ?></span>
                     <div class="carte-contenu">
                         <h3><a href="public-article.html"><?= $article["titre"] ?></a></h3>
-                        <p> <?= $article["contenu"] ?></p>
+                        <p> <?=substr($article["contenu"],0,100) ?></p>
                         <div class="carte-meta">
                             <span><?= $article["date_creation"] ?></span>
                             <span>5 min</span>
