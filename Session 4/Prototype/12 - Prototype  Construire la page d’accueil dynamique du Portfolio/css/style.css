@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14233D;
+    color: white;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fa-solid{
+    color: blue;
+}
+.logo span{
+    color: blue;
+}
+.navigation ul{
+    display: flex;
+    gap: 15px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navigation a:active{
+    border-bottom: 3px solid blue;
+    padding-bottom: 13px;
+    color: blue;
+}
+
+
+.hero {
+    padding: 40px 80px;
+    line-height: 1.6;
+    background-image:url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    height: 300px;
+}
+.hero span{
+    color: blue;
+}
+.hero h1,.hero p,.hero a{
+    color: white;
+    padding: 20px;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero a{
+    border: 1px solid blue;
+    border-radius: 8px;
+    background-color: blue;
+    padding: 10px 14px;
+    margin-left: 20px;
+}
+section{
+    background-color: #F5F7FC;
+}
+.check{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.check main{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px 25px;
+    gap: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+main i{
+    font-size: 30px;
+}
+main span{
+    font-size: 25px;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.projets{
+    font-size: 40px;
+    text-align: center;
+    padding:0px 20px;
+    border-bottom: 2px solid blue;
+    padding-bottom: 15px;  
+    width: fit-content; 
+    margin: 0 auto 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 22%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 12px;
+}
+img{
+    width: 276px;
+    height: 150px;
+    border-radius: 12px 12px 0 0;
+}
+.category{
+    color: blue;
+    background-color:#cfe1f8;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px ;
+    margin: 0px 10px;
+}
+.card p ,.card h3,.technologie,.statu{
+    padding-left: 10px;
+}
+.technologie{
+    display: flex;
+    gap: 5px;
+    color: blue;
+}
+.technologie p{
+    background-color: #cfe1f8;
+    padding: 5px;
+    border-radius: 5px;
+}
+.statu{
+    color: red;
+    background-color: orange;
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.status-termine{
+    color: green;
+    background-color: rgb(102, 219, 102);
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #14233D;
+    padding: 15px;
+}
+footer p{
+    color: white;
+}
+.social{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.logo h2{
+    color: white;
+}
+
