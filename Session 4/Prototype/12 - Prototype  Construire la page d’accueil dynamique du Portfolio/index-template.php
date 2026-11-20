@@ -16,7 +16,7 @@
         <nav class="navigation">
             <ul>
                 <li><a href="#home">Accueil</a></li>
-                <li><a href="#my-projects">Projets</a></li>
+                <li><a href="#my-project">Projets</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -24,7 +24,7 @@
     <section class="hero" id="home">
         <h1><span>Bonjour!</span> <br> je suis Développeur Web</h1>
         <p>Découvrez mes projets et mes réalisations.</p>
-        <a href="#">voir mes projets</a> 
+        <a href="#my-project">voir mes projets</a> 
     </section>
     <section class="check" >
         <main>
